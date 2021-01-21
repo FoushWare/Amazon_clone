@@ -11,7 +11,7 @@ Visit the App Here [Amazon_clone]()
 ### Deployment
 
 - [x] set up (create react app , firebase-app(Hosting+DB+cloud functions for checkout stripe))
-- [ ] Home page
+- [x] Home page
 - [ ] checkout page
 - [ ] Total price in cart
 - [ ] More checkout Page
@@ -24,6 +24,30 @@ Visit the App Here [Amazon_clone]()
 - [ ] payment processing
 - [ ] The order history page [real time DB]
 - [ ]
+
+### Some Details
+
+```
+Home Page
+|
+│____Header component
+│    │
+│    |___Logo
+|    |
+|    |___Search
+|    |
+|    |___HeaderOptions
+|         |__SignIn
+|         |__Orders
+|         |__Cart
+|
+|
+|
+└───
+│
+└───
+
+```
 
 ## Available Scripts
 
