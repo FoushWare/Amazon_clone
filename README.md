@@ -41,9 +41,11 @@ Home Page
 |         |__Orders
 |         |__Cart
 |
-|
-|
-└───
+|───Home
+|   |__Container
+|      |__Image [show case]
+|      |__HomeRow
+|         |__Product
 │
 └───
 
