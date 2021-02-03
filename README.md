@@ -47,9 +47,36 @@ Home Page
 |      |__HomeRow
 |         |__Product
 │
-└───
+|
+
 
 ```
+
+```
+Checkout
+
+──Checkout
+       |__CheckoutLeft
+       |    |____CheckoutItem [checkoutProduct]
+       |
+       |__CheckoutRight
+       |     |__subtotal
+       |
+       |__DataLayer [React context API]
+
+
+
+
+```
+
+## Technologies && Libraries
+
+- firebase
+- MaterialUiIcons
+- React-router
+- React-currency-format
+- Link so no need to refresh the page when use hyperlink
+- react-currency-format [React component to format number in an input or as a text]
 
 ## Available Scripts
 
