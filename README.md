@@ -12,12 +12,12 @@ Visit the App Here [Amazon_clone]()
 
 - [x] set up (create react app , firebase-app(Hosting+DB+cloud functions for checkout stripe))
 - [x] Home page
-- [ ] checkout page
-- [ ] Total price in cart
-- [ ] More checkout Page
-- [ ] The Login page
-- [ ] user Auth
-- [ ] userName in checkout page
+- [x] checkout page
+- [x] Total price in cart
+- [x] More checkout Page
+- [x] The Login page
+- [x] user Auth
+- [x] userName in checkout page
 - [ ] deploy our App
 - [ ] React flib animation
 - [ ] payment page
@@ -63,6 +63,26 @@ Checkout
        |     |__subtotal
        |
        |__DataLayer [React context API]
+
+
+
+
+```
+
+```
+
+──Login/Register
+  |
+  |___FrontEnd
+  |    |____Header [LoginLine]
+  |            |
+  |            |__LoginPage
+  |
+  |__BackEnd [Firebase Auth->With Email/password Enables]
+  |     |
+  |     |___Register
+  |     |
+  |     |___Login
 
 
 
