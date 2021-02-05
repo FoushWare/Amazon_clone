@@ -18,7 +18,7 @@ Visit the App Here [Amazon_clone]()
 - [x] The Login page
 - [x] user Auth
 - [x] userName in checkout page
-- [ ] deploy our App
+- [x] deploy our App
 - [ ] React flib animation
 - [ ] payment page
 - [ ] payment processing
