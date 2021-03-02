@@ -19,7 +19,7 @@ Visit the App Here [Amazon_clone](https://challenge-77580.web.app/)
 - [x] user Auth
 - [x] userName in checkout page
 - [x] deploy our App
-- [ ] React flib animation
+- [x] React animation (React flip , carosol ,notification when add or remove item , grow on hover items in home)
 - [ ] payment page
 - [ ] payment processing
 - [ ] The order history page [real time DB]

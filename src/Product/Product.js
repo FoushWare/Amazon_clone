@@ -1,6 +1,11 @@
 import React from 'react';
 import "./Product.css";
 import { useStateValue } from '../DataLayer/StateProvider';
+
+import { store } from 'react-notifications-component';
+
+import CheckoutProductNotification from '../Checkout/CheckoutProductNotification/CheckoutProductNotification';
+
 export default function Product({ id, title, image, price, rating }) {
 
     const [{ basket }, dispatch] = useStateValue();
@@ -17,9 +22,30 @@ export default function Product({ id, title, image, price, rating }) {
                 rating: rating,
             }
         })
+
+        store.addNotification({
+            content:
+                <CheckoutProductNotification
+                    key={`anim  ${id}`}
+                    title={title}
+                    id={id}
+                    rating={rating}
+                    price={price}
+                    image={image}
+                />
+            ,
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+                duration: 1000,
+            }
+        });
     }
     return (
-        <div className="product">
+        <div className="product" key={id}>
             <div className="product__info">
                 <p>{title}</p>
                 <p className="product__price">

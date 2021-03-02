@@ -4,11 +4,13 @@
 	display: flex;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	transition: transform 100ms;
+	/* transition: transform 100ms; */
+	background-color: lightgoldenrodyellow;
+	margin-right: 20px;
 }
-.checkoutProduct:hover {
+/* .checkoutProduct:hover {
 	transform: scale(1.05);
-}
+} */
 .checkoutProduct__info {
 	padding-left: 20px;
 }
