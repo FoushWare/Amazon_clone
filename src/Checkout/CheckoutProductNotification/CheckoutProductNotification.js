@@ -16,7 +16,7 @@ export default function CheckoutProductNotification({ id, image, title, price, r
     }
 
     return (
-        <div className="checkoutProduct">
+        <div className="checkoutProductNotification">
 
             <img className='checkoutProduct__image' src={image} />
 
