@@ -6,7 +6,7 @@ import CheckoutProduct from '../Checkout/CheckoutProduct/CheckoutProduct';
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "../DataLayer/reducer";
-import axios from 'axios';
+import axios from '../axios';
 
 
 
