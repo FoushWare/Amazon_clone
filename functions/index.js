@@ -1,8 +1,10 @@
+/* eslint-disable object-curly-spacing */
+/* eslint-disable indent */
 const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-    "sk_test_vDLV2o2XMTw0fvFUhtGh0QRx"
+    "sk_test_vDLV2o2XMTw0fvFUhtGh0QRx",
 );
 // Create and Deploy Your First Cloud Functions
 // https://firebase.google.com/docs/functions/write-firebase-functions

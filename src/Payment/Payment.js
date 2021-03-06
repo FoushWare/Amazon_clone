@@ -7,6 +7,7 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "../DataLayer/reducer";
 import axios from '../axios';
+import { db } from "../firebase";
 
 
 
@@ -53,6 +54,18 @@ function Payment() {
             //paymentIntent = payment confirmation 
 
             //save the user orders [firebase]
+            db
+                .collection('users')
+                .doc(user?.uid)
+                .collection('orders')
+                .doc(paymentIntent.id)
+                .set({
+                    basket: basket,
+                    amount: paymentIntent.amount,
+                    created: paymentIntent.created
+                })
+
+
             console.log("the confirmation intent :" + paymentIntent);
             setSuccessed(true);
             setError(null);

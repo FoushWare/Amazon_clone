@@ -8,6 +8,12 @@
 
 Visit the App Here [Amazon_clone](https://challenge-77580.web.app/)
 
+you can start the stripe backend by going to functions directory and Run 
+```
+  $ firebase emulators:start
+```
+Because the live version need to upgrade to BLAZE plane this means Money 💸💰
+
 ### Deployment
 
 - [x] set up (create react app , firebase-app(Hosting+DB+cloud functions for checkout stripe))
@@ -20,10 +26,10 @@ Visit the App Here [Amazon_clone](https://challenge-77580.web.app/)
 - [x] userName in checkout page
 - [x] deploy our App
 - [x] React animation (React flip , carosol ,notification when add or remove item , grow on hover items in home)
-- [ ] payment page
-- [ ] payment processing
-- [ ] The order history page [real time DB]
-- [ ]
+- [X] payment page
+- [X] payment processing
+- [X] The order history page [real time DB]
+- [X] Firebase functions (as backend of stripe )
 
 ### Some Details
 
